@@ -5,8 +5,8 @@ on:
     branches: [ "main", "VelkoBranch" ]
   pull_request:
     branches: [ "main", "VelkoBranch" ]
-  schedule:
-    - cron: '*/5 * * * *'
+  #schedule:
+  #  - cron: '*/5 * * * *'
 
 jobs:
   build:
